@@ -80,7 +80,7 @@ class Editor {
       
       
       
-      f (this.cursor.next) {
+      if (this.cursor.next) {
         this.cursor = this.cursor.next;
       }
     }
